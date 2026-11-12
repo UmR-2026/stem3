@@ -14,7 +14,7 @@
 
 ## 使用
 
-按下方「从源码构建」得到 `dist\stem3.exe`，双击打开：
+从 [Releases](https://github.com/UmR-2026/stem3/releases) 下载 `stem3.exe`（单文件，约 177 MB），双击即可运行；也可按下方「从源码构建」自行打包。二进制分发请一并保留 Release 里的 `THIRD_PARTY_NOTICES.md`。
 
 | 方式 | 操作 |
 | --- | --- |
@@ -66,7 +66,7 @@
 
 ## 从源码构建
 
-要求 Windows x64 + Python 3.12。仓库**不含模型权重，也不含 exe**（exe 约 177 MB，超过 GitHub 单文件 100 MB 限制）。
+要求 Windows x64 + Python 3.12。Git 仓库**不含模型权重，也不含 exe**（exe 约 177 MB，通过 [Releases](https://github.com/UmR-2026/stem3/releases) 分发）。
 
 ```bat
 git clone https://github.com/UmR-2026/stem3.git
@@ -120,4 +120,4 @@ python tests\test_drop.py
 
 ## 许可
 
-本仓库源码采用 [MIT](LICENSE)。该许可只覆盖本仓库代码，不覆盖上述第三方依赖与模型权重，也不代表对模型权重的再授权。
+本仓库源码采用 [MIT](LICENSE)。该许可只覆盖本仓库代码，不覆盖上述第三方依赖与模型权重，也不代表对模型权重的再授权。二进制分发所含组件的完整声明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
